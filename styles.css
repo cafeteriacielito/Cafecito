@@ -1,0 +1,100 @@
+/* General Styles */
+body {
+    font-family: 'Georgia', serif;
+    background-color: #fce5cd;
+    color: #4b3832;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #8e6e53;
+    color: white;
+    text-align: center;
+    padding: 2rem;
+    position: relative;
+}
+
+header .logo {
+    width: 80px;
+    height: auto;
+    position: absolute;
+    left: 20px;
+    top: 20px;
+}
+
+h1 {
+    font-size: 3rem;
+    margin: 0;
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+    background-color: #e6a57e;
+}
+
+nav a {
+    color: white;
+    padding: 1.2rem 2rem;
+    text-decoration: none;
+    font-size: 1.2rem;
+}
+
+nav a:hover {
+    background-color: #d9a17d;
+    transition: background-color 0.3s ease;
+}
+
+section {
+    padding: 2rem 5rem;
+}
+
+h2 {
+    font-size: 2.5rem;
+    color: #6b4226;
+}
+
+h3 {
+    font-size: 2rem;
+    color: #8e6e53;
+}
+
+h4 {
+    font-size: 1.75rem;
+    color: #a0522d;
+}
+
+p {
+    font-size: 1.1rem;
+    line-height: 1.6;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+ul li {
+    font-size: 1.2rem;
+    margin: 0.5rem 0;
+}
+
+footer {
+    background-color: #8e6e53;
+    color: white;
+    text-align: center;
+    padding: 1.5rem;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+/* Definir un tamaño uniforme para las imágenes en las secciones */
+.section-image {
+    width: 100%; /* Ajusta el tamaño de la imagen al 100% del contenedor */
+    max-width: 600px; /* Limita el tamaño máximo de la imagen */
+    height: auto; /* Mantiene la proporción de la imagen */
+    margin: 1.5rem 0;
+    display: block;
+    border-radius: 10px; /* Bordes redondeados para un efecto visual más suave */
+}
